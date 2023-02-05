@@ -63,7 +63,7 @@ def print_toppings(topping_info):
     toppings = [t for t in topping_info['pizza_toppings']]
 
     for t in toppings:
-        print(f'-{t}')
+        print(f'- {t}')
 
     print()
     
